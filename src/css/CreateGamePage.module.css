@@ -1,0 +1,31 @@
+.CreateGamePage {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 160, 122, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container {
+    width: max(300px, 80%);
+    height: 80%;
+    background-color: rgba(255, 160, 122, 0.4);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: max-content auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.InnerContainer {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(255, 160, 122, 0.6);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    
+}
